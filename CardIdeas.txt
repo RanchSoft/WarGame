@@ -1,0 +1,41 @@
+Generic Cards:
+
+Types of Cards: BATTLE, EVENT, 
+
+Name: Desertions
+Type: Reaction
+Orders Number: 3 / Reinforcement Value:  D D / Combat Value: 2 
+Effect: Play immediately after winning a battle but before casualties are assigned, your opponent must suffer an additional 2 SP of casualties.
+
+
+Name: Leaked Plans
+Type: EVENT
+Orders Number: 3 / Reinforcement Value:  B B / Combat Value: 1
+Effect: For the rest of the turn your opponent places their order markers face up.
+
+
+Name: Creeping Barrage
+Type: Battle
+Orders Number: 4 / Reinforcement Value: D D D  / Combat Value: 2
+Effect: Play only in a battle where you are the attacker. FORTIFICATION TOKENS and DEFEND AREA ORDERS do not prevent SP loss this combat.
+
+Name: Ceaseless Rain
+Type: EVENT
+Orders Number:  2 / Reinforcement Value: D B  / Combat Value: 0
+Effect: When conducting movement this turn, all areas cost a minimum of 2 movement to enter.
+
+
+Name: Dig In
+Type: EVENT
+Orders Number: 4  / Reinforcement Value: D D  / Combat Value:  3
+Effect: Immediately place 3 fortification tokens on 3 different friendly areas (this may not exceed the maximum fortification level).
+
+Name. Preliminary Bombardment
+Type: EVENT
+Orders Number: 3  / Reinforcement Value: D B B  / Combat Value:  1
+Effect: Immediately remove all fortification counters from a area that neighbors friendly units.
+
+Name: Communication Breakdown
+Type: Battle
+Orders Number: 2  / Reinforcement Value: B B   / Combat Value:  0
+Effect: Play only in a battle where you are defending. Ignore 1 SP of losses for every direction you are being attacked from.

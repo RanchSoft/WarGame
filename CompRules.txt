@@ -1,0 +1,279 @@
+UPKEEP PHASE:
+	SUPPLY:
+		Find each unit that is out of supply, that unit immediately takes a casualty
+		
+		For every unit a player destroys this way, their opponent gains 1 victory point.
+		
+		A force is considered out of supply if it is not within 1 space of a friendly or neutral space that is 
+		connected all the way to one of your deployment zones by railways or roads that do not pass through any enemy spaces.
+		
+		Friendly Spaces: Spaces are considered friendly if they contain allied units or fortification counters.
+		Enemy Spaces: Spaces are considered enemy if they contain enemy units or fortification counters.
+		Neutral Spaces:	Spaces are considered neutral if they are neither friendly nor enemy.
+	
+	CHECK FOR LAST TURN: 
+		If a player controls the initiative marker flipped to its LAST TURN side, flip it back to is normal side and perform the NEW ROUND STEP, otherwise perform the SEIZE THE INITIATIVE STEP.
+	
+	NEW ROUND:
+		SCORE VP: 
+			Each Player earns VICTORY POINTS equal to the star value of all friendly areas.
+			
+		CHECK VICTORY CONDITIONS:
+			Check if any player has satisfied the scenarios victory requirements.
+		PLACE REINFORCEMENTS:
+			Each player draws reinforcements from their bags equal to their total reinforcement values  
+			(calculated by combining the reinforce values of all cards played and the reinforce values of all friendly areas).
+		FORTIFY:
+			Each Player may place a fortification counter on every in supply city without a fortification counter.
+			If for whatever reason a city is in supply for multiple factions, neither may fortify the city.
+		DRAW CARDS:
+			Each Player may discard any number of cards, then they may draw until they have 6 cards.
+
+	SEIZE THE INITIATIVE: 
+		The player without the initiative may discard their hand to gain control of the initiative marker and flip it to its LAST TURN side, if they do not do so the player with the initiative may do the same. 
+	
+PLANNING PHASE: Play Cards
+	At the beginning of each PLANNING Phase, players may play one
+	card out of their hand. They may use this
+	card to increase the number of orders that they may give that phase
+	or to collect reinforcement cubes or to play its Historical Event. 
+
+	NOTE: A player is not required to play a card.
+
+		1. The non-initiative player chooses if he will play a card. If he
+		chooses to play one, he plays it face down.
+		2. Then the Initiative player does the same.
+		3. The non-initiative player reveals his card and announces which
+		section of the card he will use (reinforcements, orders, event, etc.
+		4. Initiative player does the same.
+
+		Once played, cards are placed in the discard pile, except those
+		that specifically state that they are to be taken out of the game.
+		If a player goes to draw a card and is unable to do so because
+		his draw pile is empty, the player immediately shuffles his discard pile 
+		to form a new draw deck.
+
+	Each player can play his card to do one of the following:
+
+		7.11: Increase Number of Orders
+			Increase the Number of Orders they may issue during this PLANNING Phase 
+			by an amount equal to the blue Orders Number printed in the top left 
+			corner of their card (In addition to the base of 2 orders). 
+
+		7.12 Collect Reinforcements:
+			A player may draw units from their reinforcement bag equal to 
+			the reinforcement values printed on the bottom of the card (will indicate either DIVISION or BRIGADE) and place them in their reinforcement zone.
+			These units will be places at the end of the round
+			
+		7.13 Play an Event. 
+			Cards with a Historical Event may
+			be played to resolve the event described on the card.
+			
+			NOTE: Some cards abilities are played instead during a battle or 
+			as a reaction to a specific condition, these cards will be of
+			type REACTION or BATTLE, Only EVENTS can be played for their effect
+			in the  Planning step.
+
+ISSUE ORDERS PHASE:
+
+	Place Order Markers:
+		Players alternate placing order markers face down on areas on the
+		map. Each player may place 2 orders one of which must always be a ‘Recon’ order.
+		The number of orders that may be placed can be increased by playing a card to
+		increase orders at the beginning of the PLANNING phase.
+		The player with initiative chooses which player places the first order. (Usually it is beneficial to choose their opponent.)
+
+		ORDERS:
+			GENERAL MOVEMENT RULES:
+				- Units have a base move of 2 with the following restrictions (some units may have more movement):
+					- Units may only move into adjacent areas and must have the full amount of movement required to make that move.
+					- Spaces that neighbor enemy units cost 2 movement to enter
+					- Spaces that are not connected to your current area by a road or rail cost 2 movement to enter.
+					- Impassable spaces may not be entered
+					- A Unit may not end its movement in an area with 4 other friendly units (i.e an area has the capacity of 4)
+					- If a unit is moved into a hostile area, place it on the border between those two spaces to signify it is attacking from that direction, 
+					  this will be dealt with in the BATTLE STEP of the EXECUTE ORDERS phase
+		
+			FORCED MARCH IN:
+				- This order may be placed on any non-impassable area within at least 
+				one friendly units forced march range. Blocks may be forced marched to 
+				the area from different directions. A block may only execute a 
+				‘Forced March To’ order if the target area is in its movement range.
+				
+				FORCED MARCH RULES:
+					Forced marched units receive double their normal movement allotment,
+					however they fight at half strength in any combat they participate in this turn.
+			
+			FORCED MARCH OUT:
+				- This order must be placed on friendly units. 
+				These blocks may force march out to different areas.
+				
+				FORCED MARCH RULES:
+					Forced marched units receive double their normal movement allotment,
+					however they fight at half strength in any combat they participate in this turn.
+
+			RECON:
+				This order may be placed on any area.
+				When the ‘Recon’ order is executed, reveal all enemy units on the space.
+				
+				NOTE: one of your orders places each turn MUST be a recon order 
+				(unless an event supersedes this requirement)
+				this order may be used as a bluff and may be placed on any area.
+				
+			MOVE IN:
+				This order may be placed on any non-impassable area within at least
+				one friendly unit’s movement range. A unit may only execute a ‘Move To’ 
+				order if the target area is in its
+				movement range. 
+				
+			MOVE OUT:
+				This order must be placed on friendly
+				unit(s). These units may move out to different areas.
+			
+			WITHDRAW:
+				This order must be placed on friendly
+				unit(s) and is carried out only if enemy units enter
+				the area. Friendly units in the area collectively suffer 1SP worth of casualties and retreat (following the rules of a losing defender outlined in the combat rules)
+				without participating in combat.
+				If there is not a valid path to retreat they must stand and fight
+				They still lose 1SP in addition to any normal combat results.
+				
+			FORTIFY AREA:
+				This order must be placed on friendly unit(s).
+				Place 2 fortification tokens on this space, up to a maximum of 3.
+				If attacked this turn you will ignore an additional SP of loss because your troops are dug in.
+				
+				FORTIFICATION TOKENS:
+					Ignores the loss of 1SP
+				
+			REORGANIZE:
+				This order must be placed on space containing friendly unit(s).
+				When executed any one unit in the area may be removed and replaced with a
+				random unit from the DIVISION BAG.
+				
+				NOTE: if this space is engaged in combat it will suffer a -2 SP penalty 
+				
+			NON COMBAT MOVEMENT:
+				This order must be placed on an area containing a friendly unit that is in supply.  
+				Each unit on that space may immediately perform a forced march out of action with the additional rules that 
+				you may ignore movement costs when moving between two spaces linked by railroad
+				you may not move units into or out of contact with the enemy 
+				
+				NOTE: This can result in you being unable to move any units if the enemy has advanced into contact with this space since you ordered it.
+				
+Execute Orders Phase:
+	
+	
+	Orders are revealed and executed consecutively with both player revealing all of their orders of the currently resolving type at the same time,
+	then one player executing all of their orders of that type before the other player does the same. 
+	The player with initiative decides which player reveals and executes each type of order first.
+	
+	• All ‘Forced March To’ and ‘Forced March Out’ orders are
+	revealed and executed in any order by one player, then the other.
+	
+	• Then the ‘Recon’ order is revealed and executed by one player,
+	then the other.
+	
+	• Then all ‘Move To’ and ‘Move Out’ orders are revealed and
+	executed in any order by one player, then the other.
+	
+	• Then all ‘Withdraw’ orders are revealed and executed by one
+	player, then the other.
+	
+	• Reveal and execute any FORTIFY AREA orders.
+	
+	•Then resolve Battles.
+	
+		RESOLVING BATTLES:
+		Battles will be resolved in the order of the initiative player's choosing but the order cannot change once battles have begun resolving..
+		Each player begins a battle by playing an optional Battle Event card if they choose to,
+		then each player must play a mandatory Combat Modifier card.
+		1. Check for Unoccupied:
+			- If the area of the battle has no defending units, immediately skip to the retreat step with the defending player as the loser.
+		2. Battle Card: At the beginning of each battle, a player may play a
+		single Battle Card from his hand for its Battle effect. The text on the
+		card describes how the battle will be influenced. The attacker decides
+		if he will play a card first, followed by the defender. They both place
+		their cards face down in front of them and reveal them simultaneously.
+		
+		3. Combat Modifier Card: Each player participating in the battle
+		must play a card that will modify their Combat Value. Players either
+		play a card that is blindly drawn from their deck or a card from their
+		hand. Players increase their force’s Combat Value by the red Combat
+		Modifier number listed in the top right corner of the card. The attacker
+		decides which card he will play first, followed by the defender. Both
+		players then reveal the cards simultaneously.
+		
+		A Combat card played from a player’s hand has its
+		listed combat modifier value increased by one.
+		
+		
+		4. Both players now reveal their units, Battle Cards, Combat
+		Modifier cards, and any Orders they have issued to this space. 
+		
+		They determine their Combat Value by summing:
+		
+		+ The Strength Points (SPs) of all of their blocks in the battle.
+		(Forced Marched fight at 1/2 strength.)
+		+ The combat modifier from the played or drawn Combat card.
+		- lose 2SP Per Friendly REORGANIZE order in this space. 
+		- The Defender loses 2SP Per Unmitigated Flank.
+			- A flank is achieved for each space beyond the first attacking units are entering the space of the battle from.
+			- Mitigate 1 flank for each location defending units have joined the space of the battle.
+		A player finds his Combat Value on the top row of the Combat Chart.
+		The red number directly below his Combat Value is the number of SP losses inflicted on his opponent.
+		5. Players modify their SP losses for:
+			• Defender occupying an area with a fortification token lose 1SP less per fortification token but must remove one of those tokens for each casaulty prevented.
+			• Any played Battle Card effects.
+			• Any Reaction Cards they wish to play at this time.
+		
+		6. Determine Winner
+			The side, which takes the most losses, loses the battle. If there is a draw, the attacker loses the battle. Losing blocks have to retreat first.
+		
+		7. Players simultaneously take losses to their units.
+		
+			REDUCING UNITS:
+			
+			First a player must reduce their DIVISIONS starting with their highest strength, each reduced unit satisfies 1SP of casualties.
+				To reduce a division:
+					- Draw a random unit from the BRIGADE BAG and replace the division with it, returning the original division to the DIVISION BAG 
+					- this satisfied 1sp of casualties
+			If after reducing all available DIVISIONS a player casualties remaining they must then begin destroying BRIGADES of their choice until their casualties suffered 
+			meet or exceed those inflicted by their enemy.
+			
+				To reduce a brigade:
+					- destroy the brigade, returning it to the brigade bag.
+					- this satisfies casualties equal to the brigades strength.
+
+			Each SP destroyed during this process counts for 1 strength of casualties, if a player finds they cannot pay for their casualties exactly the must destroy
+			BRIGADES units until the casualties are exceeded.
+			
+				- EXAMPLE: A player has a force of consisting of D[4] D[3] B[2] and suffers 3 casualties. First they must reduce both of the DIVISIONS and draw BRIGADE
+				replacements. In this case they draw a 3 and a 2, leaving them with  a force of B[3], B[2], B[2] and 1 casualty remaining. 
+				Because they do not have a 1 value BRIGADE they must remove one of their 2 value units.
+		
+		8. Retreat
+			
+			- After casualties are inflicted on both sides, the loser must retreat any remaining units out of the combat area, then the winner may choose to retreat as many units as they wish.
+				FORTIFICATIONS: Any fortifications in the area belonging to the loser are immediately destroyed.
+				DEFENDER RETREAT: Defenders who retreat must move 1 space and end on a space that is in supply. 
+				If no such space exists they may immediately take a OUT OF SUPPLY token and move to another neutral space.
+					- DESIGNERS NOTE: I need to test these retreat rules to confirm they make sense
+					
+				ATTACKER RETREAT: Attacking units must return to the space they began the attack from if able. IF that space is now under enemy control or at capacity that unit is immediately destroyed.
+				
+				AREA CAPACITY: Any unit that can't find an area to occupy due to unit capacity rules is immediately destroyed.
+				
+		9. Reward Victory Points
+		
+			- IF the winner of the battle reached the GREAT VICTORY section of the BATTLE STRENGTH chart, and the loser had at least 4 units involved, the winner immediately gains 1 VP
+			- IF one or more of your opponents units were immediately destroyed during the Retreat step, gain 1 VP for STRATEGIC VICTORY 
+				- NOTE: STRATEGIC VICTORY is technically possible to occur after a lost battle
+	
+	•Then all ‘Reorganize’ orders are revealed and executed by
+	one player, then the other.
+	
+	•Then all ‘Non Combat Move’ orders are revealed and executed by one
+	player, then the other.
+	
+

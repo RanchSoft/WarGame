@@ -1,0 +1,7 @@
+DESIGN QUESTIONS/ TODOS:
+	- Do we want cavalry/mobile units?
+	- Do we want to keep recon?
+	- Are fortifications too fiddly?
+	- Balance Combat to work with new format
+	- Is the initiative bad?
+	- What is too bulky?
