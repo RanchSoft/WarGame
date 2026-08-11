@@ -280,8 +280,8 @@ Execute Orders Phase:
 				
 		9. Reward Victory Points
 		
-			- IF the winner of the battle inflicted at least 4 casualties (ie caused the loser to return 4 or more SP of units to their bags)
-			  they immediately gain 1 VP for achieving a GREAT VICTORY
+			- IF the winner of the battle inflicted 4 or more SP of casualties after all modifications, and the loser had at least 4 SP present when the battle began
+			  the winner immediately gains 1 VP for achieving a GREAT VICTORY
 			- IF one or more of your opponents units were immediately destroyed during the Retreat step, gain 1 VP for STRATEGIC VICTORY 
 				- NOTE: STRATEGIC VICTORY is technically possible to occur after a lost battle
 	NOTE: HIDDEN INFORMATION
