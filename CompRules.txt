@@ -1,42 +1,41 @@
-UPKEEP PHASE:
-	SUPPLY:
-		Find each unit that is out of supply, that unit immediately takes a casualty
-		
-		For every unit a player destroys this way, their opponent gains 1 victory point.
-		
-		A force is considered out of supply if it is not within 1 space of a friendly or neutral space that is 
-		connected all the way to one of your deployment zones by railways or roads that do not pass through any enemy spaces.
-		
-		Friendly Spaces: Spaces are considered friendly if they contain allied units or fortification counters.
-		Enemy Spaces: Spaces are considered enemy if they contain enemy units or fortification counters.
-		Neutral Spaces:	Spaces are considered neutral if they are neither friendly nor enemy.
+SETUP:
+	Each scenario will have it's own map and setup placement instructions that will modify the stesp bellow, 
+	any scenario rules will supercede those listed here.
 	
-	CHECK FOR LAST TURN: 
-		If a player controls the initiative marker flipped to its LAST TURN side, flip it back to is normal side and perform the NEW ROUND STEP, otherwise perform the SEIZE THE INITIATIVE STEP.
+	DETERMINE FACTIONS:
+		Players may choose which of the scenarios's factions they will be playing, if players can't agree they may bid for the faction they would like to play.
+		
+		BIDDING:
+			To perform a bid a player will offer an amount of SP - The first player to articulate a bid is considered to be the first bidder.
+			The other player may then either accept this bid of offer a higher counter bid. This will continue until one player accepts their opponent's bid.
+			Once accepted the player who won the bid may claim whateve was being bid over, the 'loser' of this bid will then take a number of units such that 
+			their SP is equal to the SP bid and place them into their reinforcement zone revealed
+	CONSTRUCT BAGS:
+		begin by placing the listed amount of each color of unit tiles into the BRIGADE and DIVISION bags of the player of that color, 
+		if the scenario does not specify instead place ALL of each players pieces in the appropriate bag (Division's into the DIVISION bag and Brigadades into the BRIGADE bag)
 	
-	NEW ROUND:
-		SCORE VP: 
-			Each Player earns VICTORY POINTS equal to the star value of all friendly areas.
-			
-		CHECK VICTORY CONDITIONS:
-			Check if any player has satisfied the scenarios victory requirements.
-		PLACE REINFORCEMENTS:
-			Each player draws reinforcements from their bags equal to their total reinforcement values  
-			(calculated by combining the reinforce values of all cards played and the reinforce values of all friendly areas).
-		FORTIFY:
-			Each Player may place a fortification counter on every in supply city without a fortification counter.
-			If for whatever reason a city is in supply for multiple factions, neither may fortify the city.
-		DRAW CARDS:
-			Each Player may discard any number of cards, then they may draw until they have 6 cards.
+	PLACE STARTING UNITS:
+		If the scenario lists any starting units, draw units from the appropriate bag and place them where instructed.
+		
+		NOTE: Make sure that only the player who will be controlling the unit sees what value the unit has unless the unit is instructed to be placed face up.
+	CONSTRUCT PLAYER DECKS:
+		Gather all of the player cards of each color requested by the scenario and shuffle them together to form each player's deck.
+		If the scenario does not specify any cards instead gather all of the BASIC cards of each color and shuffle them together as each player's deck.
+	DRAW STARTING HAND:
+		Each player draws cards from the top of their deck untill they have reached their hand size.
+		
+		NOTE: the default hand size is 6 cards but scenarios may change this, players may even have different hand sizes from eachother.
+		
+	AWARD INITIATIVE:
+		If the scenario specifies who has the initiative, give that player the inititive marker flipped to it's THE BATTLE CONTINUES side
+		If the scenario does not specify players may bid to determine the player with the inititive.
+		You are now ready to begin, starting with the PLANNING PHASE.
 
-	SEIZE THE INITIATIVE: 
-		The player without the initiative may discard their hand to gain control of the initiative marker and flip it to its LAST TURN side, if they do not do so the player with the initiative may do the same. 
-	
 PLANNING PHASE: Play Cards
 	At the beginning of each PLANNING Phase, players may play one
 	card out of their hand. They may use this
 	card to increase the number of orders that they may give that phase
-	or to collect reinforcement cubes or to play its Historical Event. 
+	or to collect it's reinforcement value or to play its Historical Event. 
 
 	NOTE: A player is not required to play a card.
 
@@ -61,10 +60,13 @@ PLANNING PHASE: Play Cards
 			corner of their card (In addition to the base of 2 orders). 
 
 		7.12 Collect Reinforcements:
-			A player may draw units from their reinforcement bag equal to 
+			A player may draw units from their DIVISION and BRIGADE bags equal to 
 			the reinforcement values printed on the bottom of the card (will indicate either DIVISION or BRIGADE) and place them in their reinforcement zone.
 			These units will be places at the end of the round
 			
+			EMPTY BAG: If the BRIGADE BAG or DIVISION BAG are empty, you are considered out of manpower, simply skip drawing a new tile 
+				NOTE: In some cases this means a single casualty on a DIVISION will destroy it if there is no BRIGADE to replace it
+					  This will be rare but symbolizes the systematic breakdowns caused by manpower shortages.
 		7.13 Play an Event. 
 			Cards with a Historical Event may
 			be played to resolve the event described on the card.
@@ -90,27 +92,32 @@ ISSUE ORDERS PHASE:
 					- Spaces that neighbor enemy units cost 2 movement to enter
 					- Spaces that are not connected to your current area by a road or rail cost 2 movement to enter.
 					- Impassable spaces may not be entered
-					- A Unit may not end its movement in an area with 4 other friendly units (i.e an area has the capacity of 4)
 					- If a unit is moved into a hostile area, place it on the border between those two spaces to signify it is attacking from that direction, 
 					  this will be dealt with in the BATTLE STEP of the EXECUTE ORDERS phase
-		
+					- A space can only have a maximum of 4 units at the end of the turn, 
+					  any extra unit's ordered into a space must perform a retreat after all other orders are executed.
+					  
+					  TODO!!!! write rules to make 
+					  
 			FORCED MARCH IN:
 				- This order may be placed on any non-impassable area within at least 
-				one friendly units forced march range. Blocks may be forced marched to 
-				the area from different directions. A block may only execute a 
+				one friendly units forced march range. Tiles may be forced marched to 
+				the area from different directions. A tile may only execute a 
 				‘Forced March To’ order if the target area is in its movement range.
 				
 				FORCED MARCH RULES:
 					Forced marched units receive double their normal movement allotment,
 					however they fight at half strength in any combat they participate in this turn.
+					(Always round down)
 			
 			FORCED MARCH OUT:
 				- This order must be placed on friendly units. 
-				These blocks may force march out to different areas.
+				These tiles may force march out to different areas.
 				
 				FORCED MARCH RULES:
 					Forced marched units receive double their normal movement allotment,
 					however they fight at half strength in any combat they participate in this turn.
+					(Always round down)
 
 			RECON:
 				This order may be placed on any area.
@@ -140,8 +147,7 @@ ISSUE ORDERS PHASE:
 				
 			FORTIFY AREA:
 				This order must be placed on friendly unit(s).
-				Place 2 fortification tokens on this space, up to a maximum of 3.
-				If attacked this turn you will ignore an additional SP of loss because your troops are dug in.
+				Place 2 fortification tokens on this space. A space can not exceed 3 fortification tokens.
 				
 				FORTIFICATION TOKENS:
 					Ignores the loss of 1SP
@@ -213,22 +219,27 @@ Execute Orders Phase:
 		
 		They determine their Combat Value by summing:
 		
-		+ The Strength Points (SPs) of all of their blocks in the battle.
-		(Forced Marched fight at 1/2 strength.)
+		+ The Strength Points (SPs) of all of their units in the battle.
+		(Forced Marched fight at 1/2 strength - round down.)
 		+ The combat modifier from the played or drawn Combat card.
 		- lose 2SP Per Friendly REORGANIZE order in this space. 
 		- The Defender loses 2SP Per Unmitigated Flank.
 			- A flank is achieved for each space beyond the first attacking units are entering the space of the battle from.
 			- Mitigate 1 flank for each location defending units have joined the space of the battle.
-		A player finds his Combat Value on the top row of the Combat Chart.
+		A player finds his Combat Value on the top row of the COMBAT STRENGTH Chart.
 		The red number directly below his Combat Value is the number of SP losses inflicted on his opponent.
+		
+		COMBAT STRENGTH CHART
+		Combat Value	≤2		3–5		6–9		10–14	15–20	21–27	28+
+		SP inflicted	 0		 1		 2		  3	      4	      5	     6
+		
 		5. Players modify their SP losses for:
 			• Defender occupying an area with a fortification token lose 1SP less per fortification token but must remove one of those tokens for each casaulty prevented.
 			• Any played Battle Card effects.
 			• Any Reaction Cards they wish to play at this time.
 		
 		6. Determine Winner
-			The side, which takes the most losses, loses the battle. If there is a draw, the attacker loses the battle. Losing blocks have to retreat first.
+			The side, which takes the most losses, loses the battle. If there is a draw, the attacker loses the battle. Losing units have to retreat first.
 		
 		7. Players simultaneously take losses to their units.
 		
@@ -251,7 +262,8 @@ Execute Orders Phase:
 				- EXAMPLE: A player has a force of consisting of D[4] D[3] B[2] and suffers 3 casualties. First they must reduce both of the DIVISIONS and draw BRIGADE
 				replacements. In this case they draw a 3 and a 2, leaving them with  a force of B[3], B[2], B[2] and 1 casualty remaining. 
 				Because they do not have a 1 value BRIGADE they must remove one of their 2 value units.
-		
+			
+			
 		8. Retreat
 			
 			- After casualties are inflicted on both sides, the loser must retreat any remaining units out of the combat area, then the winner may choose to retreat as many units as they wish.
@@ -266,10 +278,15 @@ Execute Orders Phase:
 				
 		9. Reward Victory Points
 		
-			- IF the winner of the battle reached the GREAT VICTORY section of the BATTLE STRENGTH chart, and the loser had at least 4 units involved, the winner immediately gains 1 VP
+			- IF the winner of the battle reached the GREAT VICTORY section of the COMBAT STRENGTH chart, and the loser had at least 4 units involved, the winner immediately gains 1 VP
 			- IF one or more of your opponents units were immediately destroyed during the Retreat step, gain 1 VP for STRATEGIC VICTORY 
 				- NOTE: STRATEGIC VICTORY is technically possible to occur after a lost battle
+	NOTE: HIDDEN INFORMATION
+		All Unit strenghts are hidden from the enemy untill revealed (typically through engaging in combat or a recon order).
+		Once a unit's strenght is revelealed it remains revelealed until it is reorganized or is returned to a bag.
 	
+	
+
 	•Then all ‘Reorganize’ orders are revealed and executed by
 	one player, then the other.
 	
@@ -277,3 +294,45 @@ Execute Orders Phase:
 	player, then the other.
 	
 
+UPKEEP PHASE:
+	SUPPLY:
+		Find each unit that is out of supply, that unit immediately takes a casualty
+		
+		For every unit a player destroys this way, their opponent gains 1 victory point.
+		
+		IN SUPPLY:
+			a unit is considered in supply if its own space, or a space adjacent to it, can trace a path of road and/or 
+			rail links to one of your deployment zones without passing through an enemy space.
+			
+		Friendly Spaces: 
+			Spaces are considered friendly if they contain allied units or fortification counters.
+			
+		Enemy Spaces: 
+			Spaces are considered enemy if they contain enemy units or fortification counters.
+			
+		Neutral Spaces:	
+			Spaces are considered neutral if they are neither friendly nor enemy.
+	
+	CHECK FOR LAST TURN: 
+		If a player controls the initiative marker flipped to its LAST TURN side, flip it back to is normal side and perform the NEW ROUND STEP, otherwise perform the SEIZE THE INITIATIVE STEP.
+	
+	NEW ROUND:
+		SCORE VP: 
+			Each Player earns VICTORY POINTS equal to the star value of all friendly areas.
+			
+		CHECK VICTORY CONDITIONS:
+			Check if any player has satisfied the scenarios victory requirements.
+		PLACE REINFORCEMENTS:
+			Each player draws unit tiles from their bags equal to their total reinforcement values  
+			(calculated by combining the reinforce values of all cards played and the reinforce values of all friendly areas)
+			and places them in their reinforcement zone - they may then place all of the unit's in their reinforcement zone spread 
+			as they choose throughout one or more of their deployment zones.
+		FORTIFY:
+			Each Player may place a fortification counter on every in supply city without a fortification counter.
+			If for whatever reason a city is in supply for multiple factions, neither may fortify the city.
+		DRAW CARDS:
+			Each Player may discard any number of cards, then they may draw until they have 6 cards or their listed hand size if the scenario specifies.
+
+	SEIZE THE INITIATIVE: 
+		The player without the initiative may discard their hand to gain control of the initiative marker and flip it to its LAST TURN side, if they do not do so the player with the initiative may do the same. 
+	
