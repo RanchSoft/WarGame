@@ -1,18 +1,18 @@
 SETUP:
-	Each scenario will have it's own map and setup placement instructions that will modify the stesp bellow, 
-	any scenario rules will supercede those listed here.
+	Each scenario will have it's own map and setup placement instructions that will modify the steps below, 
+	any scenario rules will supersede those listed here.
 	
 	DETERMINE FACTIONS:
 		Players may choose which of the scenarios's factions they will be playing, if players can't agree they may bid for the faction they would like to play.
 		
 		BIDDING:
 			To perform a bid a player will offer an amount of SP - The first player to articulate a bid is considered to be the first bidder.
-			The other player may then either accept this bid of offer a higher counter bid. This will continue until one player accepts their opponent's bid.
-			Once accepted the player who won the bid may claim whateve was being bid over, the 'loser' of this bid will then take a number of units such that 
+			The other player may then either accept this bid or offer a higher counter bid. This will continue until one player accepts their opponent's bid.
+			Once accepted the player who won the bid may claim whatever was being bid over, the 'loser' of this bid will then take a number of units such that 
 			their SP is equal to the SP bid and place them into their reinforcement zone revealed
 	CONSTRUCT BAGS:
 		begin by placing the listed amount of each color of unit tiles into the BRIGADE and DIVISION bags of the player of that color, 
-		if the scenario does not specify instead place ALL of each players pieces in the appropriate bag (Division's into the DIVISION bag and Brigadades into the BRIGADE bag)
+		if the scenario does not specify instead place ALL of each players pieces in the appropriate bag (Division's into the DIVISION bag and brigades into the BRIGADE bag)
 	
 	PLACE STARTING UNITS:
 		If the scenario lists any starting units, draw units from the appropriate bag and place them where instructed.
@@ -22,13 +22,13 @@ SETUP:
 		Gather all of the player cards of each color requested by the scenario and shuffle them together to form each player's deck.
 		If the scenario does not specify any cards instead gather all of the BASIC cards of each color and shuffle them together as each player's deck.
 	DRAW STARTING HAND:
-		Each player draws cards from the top of their deck untill they have reached their hand size.
+		Each player draws cards from the top of their deck until they have reached their hand size.
 		
-		NOTE: the default hand size is 6 cards but scenarios may change this, players may even have different hand sizes from eachother.
+		NOTE: the default hand size is 6 cards but scenarios may change this, players may even have different hand sizes from each other.
 		
 	AWARD INITIATIVE:
-		If the scenario specifies who has the initiative, give that player the inititive marker flipped to it's THE BATTLE CONTINUES side
-		If the scenario does not specify players may bid to determine the player with the inititive.
+		If the scenario specifies who has the initiative, give that player the initiative marker flipped to it's THE BATTLE CONTINUES side
+		If the scenario does not specify players may bid to determine the player with the initiative.
 		You are now ready to begin, starting with the PLANNING PHASE.
 
 PLANNING PHASE: Play Cards
@@ -97,7 +97,9 @@ ISSUE ORDERS PHASE:
 					- A space can only have a maximum of 4 units at the end of the turn, 
 					  any extra unit's ordered into a space must perform a retreat after all other orders are executed.
 					  
-					  TODO!!!! write rules to make 
+					  If moving units into a space with 4 or more units (or containing enemy units) place them on the border of the target space
+					  and the space they are leaving- if after combat there are still too many units it will be resolved.
+					  
 					  
 			FORCED MARCH IN:
 				- This order may be placed on any non-impassable area within at least 
@@ -162,10 +164,10 @@ ISSUE ORDERS PHASE:
 			NON COMBAT MOVEMENT:
 				This order must be placed on an area containing a friendly unit that is in supply.  
 				Each unit on that space may immediately perform a forced march out of action with the additional rules that 
-				you may ignore movement costs when moving between two spaces linked by railroad
-				you may not move units into or out of contact with the enemy 
-				
-				NOTE: This can result in you being unable to move any units if the enemy has advanced into contact with this space since you ordered it.
+					you may ignore movement costs when moving between two spaces linked by railroad
+					you may not move units into or out of contact with the enemy 
+					you may not exceed the capacity of a space after this movement is resolved.
+				NOTE: This can result in you being unable to move units if the enemy has advanced into contact with this space since you ordered it.
 				
 Execute Orders Phase:
 	
@@ -234,7 +236,7 @@ Execute Orders Phase:
 		SP inflicted	 0		 1		 2		  3	      4	      5	     6
 		
 		5. Players modify their SP losses for:
-			• Defender occupying an area with a fortification token lose 1SP less per fortification token but must remove one of those tokens for each casaulty prevented.
+			• Defender occupying an area with a fortification token lose 1SP less per fortification token but must remove one of those tokens for each casualty prevented.
 			• Any played Battle Card effects.
 			• Any Reaction Cards they wish to play at this time.
 		
@@ -248,7 +250,7 @@ Execute Orders Phase:
 			First a player must reduce their DIVISIONS starting with their highest strength, each reduced unit satisfies 1SP of casualties.
 				To reduce a division:
 					- Draw a random unit from the BRIGADE BAG and replace the division with it, returning the original division to the DIVISION BAG 
-					- this satisfied 1sp of casualties
+					- this satisfies 1 SP worht of casualties
 			If after reducing all available DIVISIONS a player casualties remaining they must then begin destroying BRIGADES of their choice until their casualties suffered 
 			meet or exceed those inflicted by their enemy.
 			
@@ -268,27 +270,35 @@ Execute Orders Phase:
 			
 			- After casualties are inflicted on both sides, the loser must retreat any remaining units out of the combat area, then the winner may choose to retreat as many units as they wish.
 				FORTIFICATIONS: Any fortifications in the area belonging to the loser are immediately destroyed.
-				DEFENDER RETREAT: Defenders who retreat must move 1 space and end on a space that is in supply. 
+				
+				DEFENDER RETREAT: Defenders who retreat must move 1 space and end on a space that is in supply such that no space's capacity is exceeded. 
 				If no such space exists they may immediately take a OUT OF SUPPLY token and move to another neutral space.
 					- DESIGNERS NOTE: I need to test these retreat rules to confirm they make sense
 					
 				ATTACKER RETREAT: Attacking units must return to the space they began the attack from if able. IF that space is now under enemy control or at capacity that unit is immediately destroyed.
 				
-				AREA CAPACITY: Any unit that can't find an area to occupy due to unit capacity rules is immediately destroyed.
 				
 		9. Reward Victory Points
 		
-			- IF the winner of the battle reached the GREAT VICTORY section of the COMBAT STRENGTH chart, and the loser had at least 4 units involved, the winner immediately gains 1 VP
+			- IF the winner of the battle inflicted at least 4 casualties (ie caused the loser to return 4 or more SP of units to their bags)
+			  they immediately gain 1 VP for achieving a GREAT VICTORY
 			- IF one or more of your opponents units were immediately destroyed during the Retreat step, gain 1 VP for STRATEGIC VICTORY 
 				- NOTE: STRATEGIC VICTORY is technically possible to occur after a lost battle
 	NOTE: HIDDEN INFORMATION
-		All Unit strenghts are hidden from the enemy untill revealed (typically through engaging in combat or a recon order).
-		Once a unit's strenght is revelealed it remains revelealed until it is reorganized or is returned to a bag.
+		All Unit strengths are hidden from the enemy until revealed (typically through engaging in combat or a recon order).
+		Once a unit's strength is revealed it remains revealed until it is reorganized or is returned to a bag.
 	
-	
-
+	OCCUPATION AND CAPACITY:
+		After every combat has been resolved, area capacity must be enforced.
+		Any units on the border between two spaces may be moved into one of those spaces as long as the destination space is not enemy
+		and the move would not result with more than 4 units in a single space.
+		(this is when victorious attackers will fully enter their target space, or when additonal defenders may be moved into a space.)
+		if for whatever reason a unit cannot be moved in this way, immediately destroy it.
+		if any of your units were destroyed this way award the opponent 1 VP for a STRATEGIC VICTORY.
+		
 	•Then all ‘Reorganize’ orders are revealed and executed by
 	one player, then the other.
+	
 	
 	•Then all ‘Non Combat Move’ orders are revealed and executed by one
 	player, then the other.
@@ -325,8 +335,17 @@ UPKEEP PHASE:
 		PLACE REINFORCEMENTS:
 			Each player draws unit tiles from their bags equal to their total reinforcement values  
 			(calculated by combining the reinforce values of all cards played and the reinforce values of all friendly areas)
-			and places them in their reinforcement zone - they may then place all of the unit's in their reinforcement zone spread 
-			as they choose throughout one or more of their deployment zones.
+			and places them in their reinforcement zone.
+			
+			The player may then consolidate any number of units - returning any 2 of them to the bag to draw from the DIVISION bag
+			
+			They may then place any of the unit's in their reinforcement zone spread  as they choose throughout 
+			one or more of their deployment zones, making sure that none of those deployment zones exceeds it's capacity of 4 units.
+			
+			A player may choose to keep any undeployed units in their reinforcement zone
+			
+			
+			
 		FORTIFY:
 			Each Player may place a fortification counter on every in supply city without a fortification counter.
 			If for whatever reason a city is in supply for multiple factions, neither may fortify the city.
