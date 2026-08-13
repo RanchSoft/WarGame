@@ -5,3 +5,4 @@ DESIGN QUESTIONS/ TODOS:
 	- Balance Combat to work with new format
 	- Is the initiative bad?
 	- What is too bulky?
+	- Do we really want it to be so hard to attack along trails?
