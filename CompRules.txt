@@ -109,7 +109,9 @@ ISSUE ORDERS PHASE:
 						- trails: 2 movement
 						- roads and railways: 1 movement
 					- Spaces connected to enemy units always take 2 move to exit, regardless of link type.
+						(for example travling by railway from a space connected to an enemy space will cost 2 movement, even though a railroad normally costs 1)
 
+					- Units on a path will only participate in combat of their target destination.
 					(to remember what their destination is always make sure to place them on the far end of connections they traverse such that they are closest to the target)
 			FORCED MARCH IN:
 				- This order may be placed on any area that at least one friendly unit could possibly reach by performing a double move. 
@@ -274,8 +276,6 @@ Execute Orders Phase:
 			- IF the winner of the battle inflicted 4 or more casualties after all modifications, and the loser had at least 4 SP present when the battle began
 			  the winner immediately gains 1 RESOLVE for achieving a GREAT VICTORY	
 			  
-			EARNING VICTORY POINTS: Whenever instructed to gain victory points, take that many from your oppoenent's victory point pool
-				(If they don't have enough RESOLVE simply take as many as you can, then take end of game VICTORY POINT tokens for each that you could not take)
 		9. Defender Retreat (Do only if the defender lost the battle)
 			- After casualties are inflicted on both sides, if the defender lost and has units remaining they must retreat their units out of the combat area
 			- 	do this by placing all surviving units on paths leaving the space.
@@ -335,7 +335,7 @@ UPKEEP PHASE:
 			Each player who does so gains RESOLVE equal to the star value printed on that city.
 			
 		REDUCE VICTORY POOLS:
-			Each player must return one of their WILL to the collection.
+			Each player must return one of their RESOLVE to the collection.
 			
 			IF A PLAYER WOULD EVER GO INTO NEGATIVE RESOLVE: instead that player goes to 0 RESOLVE and their opponent is awarded the difference in VICTORY POINT chips
 			- which are scored like RESOLVE at the end of the game but do not count for end game conditions and cannot be won by the opponent.  
@@ -357,7 +357,6 @@ UPKEEP PHASE:
 			A player may choose to keep any undeployed units in their reinforcement zone
 			
 			
-
 		DRAW CARDS:
 			Each Player may discard any number of cards, then they may draw until they have 6 cards or their listed hand size if the scenario specifies.
 
