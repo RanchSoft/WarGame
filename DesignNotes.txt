@@ -9,3 +9,5 @@ DESIGN QUESTIONS/ TODOS:
 	- Twilight struggle style events?
 	- Should recon reveal orders as well?
 	
+TODO:
+ - Reword the combat section after hits rework

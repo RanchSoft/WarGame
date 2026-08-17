@@ -462,7 +462,7 @@ Execute Orders Phase:
 			- 	do this by placing all surviving units on paths leaving the space.
 					- these paths must not contain enemy units and must not lead to enemy territories
 					- if no such paths exist then ELIMINATE all of these units. If any units were ELIMINATED this way award the attacker 1 RESOLVE for a STRATEGIC VICTORY 
-			- Then ELIMINATE any fortification tokens remaining in the space
+			- Then destroy any fortification tokens remaining in the space
 			- Then the attacker may move up to 4 of its units into the space from linked paths.
 									
 
@@ -508,7 +508,7 @@ UPKEEP PHASE:
 			Each player who does so gains RESOLVE equal to the RESOLVE value printed on that city.
 			
 		RESOLVE DECAYS:
-			Each player must return one RESOLVE to the collection.
+			Each player must return one RESOLVE to the collection. A player with no resolve simply does nothing.
 			(See RESOLVE in general rules)
 	
 		PLACE REINFORCEMENTS:
