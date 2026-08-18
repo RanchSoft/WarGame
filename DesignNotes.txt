@@ -9,25 +9,17 @@ DESIGN QUESTIONS/ TODOS:
 	- Twilight struggle style events?
 	- Should recon reveal orders as well?
 	
+	
+	8/18/26
+	- Consider nerfing fortifications?
+	- Can we cut out withdraw or re-org?
+	
 TODO:
- - Reword the combat section after hits rework
- 
- Add and review these glossary terms 
- 
- REDUCED — A division that has absorbed a HIT: it returns to the DIVISION BAG and is replaced by a random unit drawn from the BRIGADE BAG. Brigades are never reduced.
 
-DIVISION BAG / BRIGADE BAG — Opaque containers holding each player's unreformed units. Reduced divisions and eliminated brigades return to their respective bags and may be drawn again as reinforcements.
 
-Out of Manpower — The state of having an empty bag. A draw that cannot be made is skipped; a division that cannot be replaced is eliminated instead.
 
-Battle Card — A card played face down at the start of a battle for its printed Battle effect. One per player per battle, from hand only.
 
-Combat Modifier — The red number in a card's top right corner, added to Combat Value. Every player in a battle must play one, either blind from their deck or from hand; playing from hand adds 1.
 
-Reaction Card — A card played in response to a specific condition rather than during the Planning Phase.
 
-Event — A card's Historical Event text, playable only during the Planning Phase.
 
-Great Victory — 1 RESOLVE gained by a battle winner who inflicted 4 or more HITS against a force of at least 4 SP.
 
-Strategic Victory — 1 RESOLVE gained when enemy units are eliminated during Defender Retreat or Occupation and Capacity.
